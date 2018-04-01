@@ -1,0 +1,16 @@
+{
+  "name": "serverless-webtasks-local-example",
+  "version": "1.0.0",
+  "description": "Example of using the serverless-webtask-local plugin for the Serverless framework",
+  "main": "index.js",
+  "author": "Gareth Hunt <167153+garethhunt@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sls wt-local"
+  },
+  "devDependencies": {
+    "@webtask/serverless-webtasks": "^1.0.6",
+    "serverless": "^1.26.1",
+    "serverless-webtasks-local": "^0.0.1"
+  }
+}
